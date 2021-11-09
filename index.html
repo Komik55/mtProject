@@ -2,23 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="Free Web">
+  	<meta name="keywords" content="HTML, CSS">
+ 	 <meta name="author" content="Raufzoda Komyob">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mysite</title>
 	<link rel="stylesheet" href="css.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="adaptive.css">
+	<link rel="icon" href="img/icon.jpg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="adaptive.css">
 </head>
 <body>
 	<svg class='svg__loader'>
 		<circle cx='650' cy='300' r='100' />
 	</svg>
 	<div class="wrapper">	
-			<div class="home">	
+			<div class="home">
+			<div class="home__footer__icon pos__link">	
+						<a href="#footer" class="bottom__link"></a>
+				</div>		
 				<header class="home__header">
 						<div class="home__header__logo">
 								<a href="#">BOUNCY</a>
@@ -54,12 +61,12 @@
 				</header>	
 			<section class="home__main">	
 					<div class="home__main__title">W E <span></span>A R E  <span></span> C O D E  <span></span>  C A F E </div>
-					<div class="home__main__title2">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium </br>aliquam architecto quam illo facere, provident.	
-					</div>
+					<h5 class="home__main__title2">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium <br>aliquam architecto quam illo facere, provident.	
+					</h5>
 			</section>
 		<div class="home__footer">	
 			<div class="home__footer__icon">	
-						<a href="#service">v</a>
+						<a href="#service"></a>
 				</div>	
 		</div>	
 			</div>	
@@ -67,11 +74,11 @@
 				<!-- Page about -->
 	<section id="about">	
 		<div class="about__header">	
-			<div class="about__header__title">
+			<h2 class="about__header__title">
 				DETAILS ABOUT BOUNCY
-			</div>
+			</h2>
 			<div class="about__header__title2">	
-					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium </br>aliquam architecto quam illo facere, provident.
+					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium <br>aliquam architecto quam illo facere, provident.
 			</div>	
 			<div class="about__header__icons">	
 					<div>&#9825;</div>
@@ -84,14 +91,16 @@
 					</div>	
 					<div class="about__header__bot__text">	
 							<div class="about__header__bot__text1">	
-									Lorem ipsum dolor sit amet, <b style="color: #00f3ff;">consectetur</b> adipisicing, elit.</br>  <b>Similique</b> officiis soluta id.Corrupti tempora placeat</br> debitis voluptatum id quo.	
+									Lorem ipsum dolor sit amet, <b style="color: #00f3ff;">consectetur</b> adipisicing, elit.<br>  <b>Similique</b> officiis soluta id.Corrupti tempora placeat<br> debitis voluptatum id quo.	
 							</div>
 							<div class="about__header__bot__text2">	
-									Lorem ipsum dolor sit amet,  <b style="color: #00f3ff;">consectetur</b>adipisicing, elit.</br>
+									Lorem ipsum dolor sit amet,  <b style="color: #00f3ff;">consectetur</b>adipisicing, elit.<br>
 									 Similique  <b>officiis</b> soluta id. 
-									 Corrupti tempora placeat debitis</br> voluptatum id quo natus  <b style="color: #00f3ff;">harum</b> perferendis nam et ad</br> nemo laudantium laborum at, obcaecati.
+									 Corrupti tempora placeat debitis<br> voluptatum id quo natus  <b style="color: #00f3ff;">harum</b> perferendis nam et ad<br> nemo laudantium laborum at, obcaecati.
 							</div>
 					</div>
+				</div>
+				</div>
 			</section>
 			
 		</div>
@@ -100,12 +109,12 @@
 						FEATURED PROJECTS
 			</div>
 			<div class="about__header__title2">	
-					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium </br>aliquam architecto quam illo facere, provident.
+					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium <br>aliquam architecto quam illo facere, provident.
 				</div>
 				<div class="about__footer__gallery">	
-						<img src="whiskey2.jpg" id="footer__gallery1" alt="Whiskey">
-						<img src="whiskey3.jpg" alt="Whiskey">
-						<img src="whiskey1.jpg" alt="Whiskey">
+						<img src="img/whiskey2.jpg" id="footer__gallery1" alt="Whiskey">
+						<img src="img/whiskey3.jpg" alt="Whiskey">
+						<img src="img/whiskey1.jpg" alt="Whiskey">
 				</div>	
 					<div class="about__footer__submit">	
 								<span>Lorem ipsum dolor sit amet <b>consectetur</b> adipisicing elit.</span>
@@ -114,13 +123,12 @@
 								</span>			
 					</div>	
 			</div>
-		</div>
 			<section id="service">	
-								<div class="about__header__title">
+								<h2 class="about__header__title">
 									OUR SERVICES
-			</div>
-			<div class="about__header__title2">	
-					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium </br>aliquam architecto quam illo facere, provident.
+			</h2>
+			<div class="about__header__title2 service__title2">	
+					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium <br>aliquam architecto quam illo facere, provident.
 				</div>
 				<div class="service__main">		
 					<div class="service__main__inf">	
@@ -138,7 +146,7 @@
 									<div class="service__main__inf__text2">Lorem ipsum dolor sit amet consectetur <b>adipisicing</b> elit. Rem <b style="color: #00f3ff;">perspiciatis</b> minima expedita.	</div>
 							</div>	
 							<div class="service__main__loader">
-									<svg width='700' height='200' 	class='svg__loader2'	>
+									<svg width='600' height='200' 	class='svg__loader2'	>
 										<defs>
 										<g id="groupLoader"> 
 										<circle cx='120' cy='95' r='70' stroke='aqua' stroke-width='3' fill='transparent'/>
@@ -164,11 +172,11 @@
 						</section>	
 	<!--Portfolio 	-->
 	<section id="portfolio">
-		<div class="about__header__title">
+		<h2 class="about__header__title  port__title">
 					THE PORTFOLIO
-			</div>
-		<div class="about__header__title2">	
-					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium </br>aliquam architecto quam illo facere, provident.
+			</h2>
+		<div class="about__header__title2 portfolio__title2">	
+					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium <br>aliquam architecto quam illo facere, provident.
 		</div>
 		<div class="portfolio__nav">	
 					<ul class="portfolio__nav__list">	
@@ -182,20 +190,20 @@
 						</ul>
 		</div>	
 		<div class="portfolio__gallery">
-				<img src="portfolio-1.jpg" alt="Portfolio gallery" height="350">
-				<img src="portfolio-2.png" alt="Portfolio gallery" height="200">
-				<img src="portfolio-3.jpg" alt="Portfolio gallery" height="250">
-				<img src="portfolio-4.jpg" alt="Portfolio gallery" height="350">
+				<img src="img/portfolio-1.jpg" alt="Portfolio gallery" height="350">
+				<img src="img/portfolio-2.png" alt="Portfolio gallery" height="200">
+				<img src="img/portfolio-3.jpg" alt="Portfolio gallery" height="250">
+				<img src="img/portfolio-4.jpg" alt="Portfolio gallery" height="350">
 
-				<img src="portfolio-9.jpg" alt="Portfolio gallery" height="350">
-				<img src="portfolio-6.jpg" alt="Portfolio gallery" height="350" class="margImage">
-				<img src="portfolio-7.jpg" alt="Portfolio gallery" height="350" class="margImage2">
-				<img src="portfolio-8.jpg" alt="Portfolio gallery" height="200">
+				<img src="img/portfolio-9.jpg" alt="Portfolio gallery" height="350">
+				<img src="img/portfolio-6.jpg" alt="Portfolio gallery" height="350" class="margImage">
+				<img src="img/portfolio-7.jpg" alt="Portfolio gallery" height="350" class="margImage2">
+				<img src="img/portfolio-8.jpg" alt="Portfolio gallery" height="200">
 
-				<img src="portfolio-5.jpg" alt="Portfolio gallery" height="200">
-				<img src="portfolio-10.jpg" alt="Portfolio gallery" height="350" class="margImage">
-				<img src="portfolio-11.jpg" alt="Portfolio gallery" height="300" class="margImage2">
-				<img src="portfolio-12.jpg" alt="Portfolio gallery" height="350" class="margImage">
+				<img src="img/portfolio-5.jpg" alt="Portfolio gallery" height="200">
+				<img src="img/portfolio-10.jpg" alt="Portfolio gallery" height="350" class="margImage">
+				<img src="img/portfolio-11.jpg" alt="Portfolio gallery" height="300" class="margImage2">
+				<img src="img/portfolio-12.jpg" alt="Portfolio gallery" height="350" class="margImage">
 		</div>	
 		<div class="portfolio__footer">
 				<div class="portfolio__footer__title">Lorem ipsum <b>dolor</b> sit amet, consectetur adipisicing elit. <b>Quis</b> debitis est, laboriosam.
@@ -215,23 +223,23 @@
 		<input type="checkbox" id="check3">
 			<label class="label__active3" for="check3"></label>
 		<div class="team__block">	
-			<div class="about__header__title">
+			<h2 class="about__header__title">
 					THE TEAM
-			</div>
+			</h2>
 		<div class="about__header__title2">	
-					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium </br>aliquam architecto quam illo facere, provident.
+					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium <br>aliquam architecto quam illo facere, provident.
 		</div>
 			<div class="team__collection">	
 			<div class="team__collection__img">	
-					<img src="team-1.jpg" alt="Team image" height="250">
+					<img src="img/team-1.jpg" alt="Team image" height="250">
 			</div>	
 			<div class="team__collection__right">	
 					<div class='team__collection__right__title'>
 							<div style="text-align: right;padding-bottom: 6px;" class="name__man"><b>Kevin Maguire</b></div>
-							<div style="text-align: right;" class="name__man"><i>CREATIVE DIRECTOR,CODE CAF</i>E</div>
+							<div class="name__man2"><i>CREATIVE DIRECTOR,CODE CAF</i>E</div>
 					</div>
 					<div class="about__header__title2 right__title">	
-					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium </br>aliquam architecto quam illo facere, provident.
+					Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Laudantium <br>aliquam architecto quam illo facere, provident.
 					</div>
 			<div class="team__collection__progress">	
 					<div class="collection__progress1">	
@@ -264,9 +272,7 @@
 			</div>	
 		</div>	
 			
-	</div>
-	</div>
-	
+	</div>	
 </div>					
 			</section>
 		<footer id="footer">
@@ -276,10 +282,9 @@
 						Contact Us
 				</a>
 				</div>	
-				<div class="footer__btn__up">
-					<a href="#">></a>
-				</div>
+		<div class="home__footer__icon pos__link2">	
+						<a href="#" class="bottom__link2"></a>
+				</div>			
 			</footer>
-				</div>	
 </body>
 </html>

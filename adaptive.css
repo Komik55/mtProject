@@ -12,6 +12,12 @@
 	width: 	118vmax;
 
 }
+
+.about__header__bot__title,
+.about__header__bot__text1,
+.about__header__bot__text2{
+	text-align: center;
+}
 .home__header{
 	margin-top: 2vmin;
    margin-left: -27%;
@@ -28,8 +34,12 @@
 	position: absolute;
 	left: 85%;
 	display: block;
+	margin-left: -8%;
 }
 .burger__bar{
+	width: 114%;
+	top: -52px;
+	height: 100vh;
 	display: block;
 	transform: translateX(-1400px);
 
@@ -50,7 +60,7 @@
 	align-items: space-between;
 }
 .about__header__bot__text1{
-	margin-bottom: 1.5vmin;
+	margin-bottom: 7vmin;
 }
 
 .about__header__icons{
@@ -63,18 +73,33 @@
 	text-align: center;
 }
 .about__header__title2{
+	width: 580px;
+	text-align: center;
 	margin-left: 78px;
+}
+.about__footer__gallery{
+	flex-wrap: wrap;
+}
+.about__footer__gallery img{
+width: 50%;
+}
+.about__footer__submit{
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 .svg__loader2{
 	display: none;
 }
 .service__main__inf__text1,.service__main__inf__text2
 {
-width: 73vw;
+width:420px;
 }
-
+.service__title2{
+	width: 620px;
+}
 .portfolio__nav__list{
 	width: 	75%;
+	text-align: center;
 	margin-left: 10%;
 }
 .portfolio__nav__list li{
@@ -84,6 +109,9 @@ width: 73vw;
 }
 .portfolio__gallery{
 	width: 	100%;
+}
+.portfolio__title2{
+	width: 645px;
 }
 .portfolio__gallery img{
 width: 	100%;
@@ -106,15 +134,30 @@ margin: 0;
 #team label{
 	bottom: 68px;
 }
+.team__collection__progress{
+	margin-left: 32px;
+}
 .team__collection__right__title{
 	border: none;
 }
-.about__header__title2{
-	text-align: left;
-	max-width: 	80%;
+.right__title{
+	margin-left: -20%;
 }
 .name__man{
-	margin-right: 120px;
+	margin-right: 77%;
+}
+.name__man2{
+	text-align: left;
+	margin-left: -13%;
+}
+.label__active1{
+	left: 310px;
+}
+.label__active2{
+	left: 325px;
+}
+.label__active3{
+	left: 340px;
 }
 #footer{
 	padding: 60px;
@@ -122,11 +165,71 @@ margin: 0;
 .footer__title{
 	margin-bottom: 20px;
 }
+
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 630px){
+.home__main__title,.home__main__title2,
+.home__footer__icon,.about__header,
+#service
+{
+	margin-left: -17%;
+}
+.menu__burger{
+	left: 80%;
+}
+.pos__link{
+	top: 40px;
+}
+.service__title2{
+	margin-left: 15%;
+}
+.portfolio__title2,
+.portfolio__nav__list{
+	margin-left: -1%;
+}
+.port__title{
+margin-left: 200px;
+display: inline-block;
+}
+.name__man2{
+	margin-left: -1%;
+}
+.right__title{
+	margin-left: -9%;
+	width: 76%;
+}
+.portfolio__footer__title,.portfolio__footer__btn{
+	margin-left: -33%;
+}
+.footer__title,.footer__btn{
+	margin-left: -24%;
+}
+
+}
+@media screen and (max-width: 550px){
+
+.menu__burger{
+	left: 65%;
+}
+
+.home__main__title,.home__main__title2,
+.home__footer__icon,.about__header,
+#service{
+	margin-left: -35%;
+}
+}
+@media screen and (max-width: 420px){
 	body{
 		font-size: 25px;
 	}
+	.home__header{
+		justify-content: space-around;
+	}
+	.home__main__title,.home__main__title2,
+.home__footer__icon,.about__header,
+#service{
+	margin-left: -29%;
+}
 	.team__collection__progress{
 		display: none;
 	}
